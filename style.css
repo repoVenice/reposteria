@@ -10,7 +10,7 @@
     font-style: normal;
 
 }
-
+ 
 body {
     width: 85%;
     margin: 0 auto!important;
@@ -34,28 +34,24 @@ body {
    /*  height: 125px; */
     width: 100%;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 15px 0px;
     float: left;
     text-align: center;
 }
 
 .txt_logo {
-	background-color: #6d8788;
+    background-color: #6d8788;
     /* text-align: left; */
     width: 25%;
-    padding: 10px 0px 10px 0px;
     float: left;
 }
 
 .txt_logo p {
-margin: 0px;
-    font-size: 15px;
-    color: #f3e8e6;
+    margin: 0px;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
 }
-.ubicar{
- 
-	
-}
+
 .cont_logo {
     background-color: rgb(126, 136, 126);
     /* height: 85px; */
@@ -75,17 +71,6 @@ margin: 0px;
     margin: 0 auto;
     background-size: cover;
 }
-
-.borde_head {
-    height: 24px;
-    width: 100%;
-    float: left;
-    background-color: #6d8788;
-    background-image: url(images/mediocirc.jpg);
-}
-
-
-
 /* body */
 
 .arriba {
@@ -96,7 +81,13 @@ margin: 0px;
     padding: 0px 0px 0px 0px;
     float: left;
 }
-
+.borde_head {
+    height: 24px;
+    width: 100%;
+    float: left;
+    background-color: rgba(255, 199, 199, 0.73);
+    background-image: url(images/mediocirc-01.png);
+}
 .izquierda {
 	background-color: #ffc7c7;
     /* height: 100%; */
@@ -159,9 +150,9 @@ margin: 0px;
 
 .tit_menu span{
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    padding: 0px 15px;
-    letter-spacing: 2px;
+	font-size: 24px;
+    padding: 0px 8px;
+    letter-spacing: 1px;
 }
 .fin_nav {
     width: 100%;
@@ -190,11 +181,11 @@ margin: 0px;
 }
 
 .contiene {
-	background-color: #757272;
+	/* background-color: #757272; */
     /* height: 620px; */
     width: 85%;
     margin: 0px 0px 0px 0px;
-    padding: 25px 0px 23px 0px;
+    padding: 35px 0px 23px 0px;
     /* float: left; */
     text-align: center;
     border-bottom: 2px solid #d66666;
@@ -222,7 +213,7 @@ background-color: rgba(255, 255, 255, 0.26);
     /* height: 200px; */
     width: 44%;
     /* opacity: 0.8; */
-    margin: 15px 0px 15px 13px;
+    margin: 15px 0px 15px 18px;
     padding: 15px 10px;
     float: left;
     text-align: center;
@@ -274,12 +265,78 @@ background-color: transparent;
 	background-color: #ffc7c7;
     float: right;
     width: 17%;
-    margin: 132px 1% 0px 0%;
+    margin: 132px 1% 20px 0%;
     padding: 0px 0px 0px 0px;
+    text-align: center;
     font-size: 16px;
     border: double 4px #DA515E;
 }
+.menu_listado {
+    margin: 15px 0px 25px 5%;
+    padding: 0px 15px 0px 15px;
+    /* cursor: pointer; */
+    float: left;
+    /* height: 100px; */
+    text-align: left;
+    border: transparent 1px solid;
+    border-left: 2px solid #DA5B10;;
+    /* background-color: rgba(243, 104, 155, 0.15); */
+    min-width: 70%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+.menu_listado p{
+	margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color:#E25A09;
+}
+.menu_listado h2{
+    margin: 18px 0px 12px 0px;
+    font-size: 18px;
+    font-weight: 200;
+	text-transform: capitalize;
+    color: #DA5B10;
+}
+.menu_listado a{
+    text-decoration: none;
 
+}
+.menu_listado a span{
+    font-size: 15px;
+    font-weight: 700;
+    /* font-style: italic; */
+    color: #DA5B10;
+}
+.menu_listado a span:hover{
+    border-bottom: 1px solid;
+    /* line-height: 41px; */
+    padding-bottom: 3px;
+}
+.fin_listado_not{
+    width: 100%;
+    /* margin: 10px 0px 0px 0px; */
+    /* padding: 20px 0px 20px 0px; */
+    float: left;
+    /* height: 100px; */
+    color: #DA515E;
+    /* border: #b1aaaa 1px solid; */
+    /* width: 95%; */
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'nymphetteregular', Arial, sans-serif;
+}
+
+.fin_listado_not p{
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 20px 0px;}
+	
+.fin_listado_not span {
+
+    color: transparent;
+}
 .boton2 {
     border: 0px solid;
 }
@@ -288,26 +345,22 @@ background-color: transparent;
     border: 0px solid;
 }
 .borde_bottom{
-    background-color: #6d8788;
-    background-image: url(images/mediocirc.jpg);
+    background-color: #969ae2;
+    background-image: url(images/mediocirc-08.png);
 }
 /* footer */
 
 .abajo {
     width: 100%;
-    padding: 50px 0px 50px 0px;
+    padding: 10px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
     text-align: center;
     color: white;
     background-color: #969ae2;
-    font-size: 18px;
+    font-size: 20px;
     float: left;
 }
 
-.abajo p{
-    margin: 0px;
-	    line-height: 25px;
-}
 
 
 .rrss {
