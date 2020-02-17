@@ -1,0 +1,140 @@
+.cuerpo-noticias {
+    /* background-color: #ffc7c7; */
+    /* height: 718px; */
+    width: 61%;
+    height: auto;
+	text-align: center;
+    /* opacity: 0.8; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+}
+
+.titulo_centro{
+    font-family: 'Courgette', cursive;
+    color: #d66666;
+    font-size: 45px;
+    margin: 0px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.contenedor_noticia{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: auto;
+    padding: 15px 0%;
+    /* width: 95%; */
+    /* background-color: black; */
+    /* float: left; */
+    margin-top: 0px;
+}
+
+.texto_noticia{
+    background-color: rgba(255, 255, 255, 0.26);
+        /* height: 200px; */
+        width: 100%;
+        height: auto;
+        /* opacity: 0.8; */
+        float: left;
+        position: relative;
+        top: 6px;
+        left: 0px;
+        text-align: center;
+        border: 1px solid pink;
+        font-family: 'Raleway', sans-serif;
+}
+
+.txtcentro {
+    margin: 0px;
+    padding: 10px; 
+    min-height: 25px;
+    height: auto;
+}
+ 
+.txtcentro h2{
+    font-family: 'Courgette', cursive;
+    color: #d66666;
+    font-size: 25px;
+    margin: 10px 0 30px 0;
+}
+
+.txtcentro p{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    padding: 0px 30px;
+}
+h4{
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.ico-noticias{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+ul{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    padding: 0px 30px;
+    margin-left: 30px;
+}
+
+.boton1{ 
+    text-decoration: none;
+}
+
+.boton_destaca{ 
+    background-color: transparent;
+    width: 120px;
+    height: 20px;
+        /* width: 45%; */
+    padding: 15px 15px;
+    border: 1px solid #D62F2F;
+    color: #D62F2F;
+        /* text-decoration: none; */
+        /* float: left; */
+    margin-top: 25px;
+    margin-left: 220px;
+    font-size: 17px;
+    line-height: 100%;
+    font-style: italic;
+}
+
+.img-0-taller {
+	height: 260px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.img-1-cata {
+	height: 280px;
+    width: 500px;
+}
+
+.img-2-comunicado{
+    width: 560px;
+    height: auto;
+    margin: 20px 0px;
+}
+
+.img-3-concurso {
+	height: 280px;
+    width: 440px;
+    margin: 20px 0px;
+}
+
+.img-4-saure{
+	height: 280px;
+    width: 440px;
+    margin: 20px 0px;
+}
