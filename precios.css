@@ -1,0 +1,59 @@
+
+
+.cont_precios{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    padding: 15px 0%;
+    /* width: 95%; */
+    /* background-color: black; */
+    /* float: left; */
+    margin-top: 20px;
+    border: 1px solid black;
+    
+}
+.precios {
+    background-color: rgba(255, 255, 255, 0.26);
+
+    /* height: 200px; */
+    width: 90%;
+    /* opacity: 0.8; */
+    margin: 15px 0px 15px 18px;
+    padding: 15px 10px;
+    float: left;
+    text-align: center;
+    border: 1px solid pink;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid black;
+}
+
+.grid-tortas{
+    display: grid;
+    width: 500px;
+    height: 300px;
+    grid-template-columns: 200px repeat(3,1fr);
+    grid-template-rows:  40px repeat(6,30px);
+    text-align: center;
+    margin: 5% auto;
+    gap: 3px;
+}
+
+.grid-tortas>div{
+    border: 1px solid blue;
+    background-color: rgba(217, 231, 228, 0.51);
+    line-height: 0px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+div>.titulo{
+    border: 1px solid blue;
+    background-color: rgba(25, 122, 101, 0.755);
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 0px;
+}
+
