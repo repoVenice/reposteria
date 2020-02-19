@@ -94,11 +94,55 @@ height: 17px!important;
 .logo {
     height: 125px;
     width: 125px;
-    background-color: #8EA2B3;
-    background-image: url(images/idealogo1.png);
+    /* background-color: #8EA2B3; */
+    background-image: url(images/final_log.png);
+    /* background-image: url(images/idealogo1.png); */
     float: center;
     margin: 0 auto;
     background-size: cover;
+}
+
+/*responsive logo-menu*/
+@media only screen and (max-width: 1218px){
+    .txt_logo_derec {
+        margin: 0px 0% 0px 0%!important;
+    }
+   
+}
+@media only screen and (max-width: 802px){
+    .txt_logo p {
+        margin: 0px 0% 0px 0%;
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+    }
+    .txt_logo {
+        text-align: center;
+        width: 100%;
+    }
+    .cont_logo {
+        width: 100%;
+    }
+    .txt_logo:last-child {
+        text-align: center;
+    }
+    .txt_logo_derec {
+        margin: 0px 0% 0px 0px;
+    }
+}
+@media only screen and (max-width: 500px){
+	.menu_princ {
+    width: 90%;
+	}
+	.menu_princ:first-child{
+    margin: 20px 1px 0px 2%;
+    }
+    .tit_menu p {
+        font-size: 30px;
+        }
+    .tit_menu span {
+        font-size: 30px;
+        padding: 0px 25px;
+        }    
 }
 /* body */
 
@@ -137,15 +181,15 @@ height: 24px;
 .izquierda p{
     margin:0px;
 }
-
+/*
 .cont_botones_izq{
     
-/*          background-color: aliceblue; 
+        background-color: aliceblue; 
         overflow: unset;
         padding-left: 5%;
-        height: 350px; */
+        height: 350px; 
 }
-
+*/
 
 .menu_princ {
     margin: 30px 0px 0px 0%;
@@ -173,7 +217,7 @@ height: 24px;
     border: #D65D07 1px solid;
     border-left: #D65D07 5px solid;
     background-color: rgba(249, 145, 183, 0.25);
-    width: 60%; 
+    width: 60%;
 }
 .menu_princ a{
     color: #D66C2C;
@@ -274,7 +318,7 @@ height: 24px;
     margin-top: 0px;
 }
 .cuadritos {
-background-color: rgba(255, 255, 255, 0.26);
+    background-color: rgba(255, 255, 255, 0.26);
     /* height: 200px; */
     width: 44%;
     /* opacity: 0.8; */
@@ -332,7 +376,115 @@ background-color: rgba(255, 255, 255, 0.26);
     text-decoration: none;
 }
 
+/* responsivo izquierda*/
+@media only screen and (max-width: 1218px){
+	.izquierda {
+	width: 98%;
+    padding: 0px 0px 30px 2px;
+    margin: 50px 0px 0px 0%;
+	}
+	.tit_menu {
+	vertical-align: top;;
+    margin: 25px 0px 20px 0%;
+    display: inline-block;
+    text-align: center;
+	}
+	.menu_princ {
+    margin: 20px 0px 0px 3%;
+    padding: 20px 5px 20px 5px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+	}
+	.menu_princ:first-child{
+    margin: 20px 0px 0px 2%;
+	}
+	.fin_nav {
+    display: none;
+	}
+}
+@media only screen and (max-width: 1218px){
+	.menu_princ:hover {
+    width: 20%;
+	} 
+}
+@media only screen and (max-width: 802px){
+	.menu_princ {
+    margin: 20px 1px 0px 2%;
+    padding: 20px 5px 20px 5px;
+    font-size: 30px;
+    width: 44%;
+	}
+	.menu_princ:first-child{
+    margin: 20px 1px 0px 2%;
+	}
+}
+@media only screen and (max-width: 802px){
+	.menu_princ:hover {
+    width: 44%;
+	} 
+}
+@media only screen and (max-width: 500px){
+	.menu_princ {
+    width: 90%;
+	}
+	.menu_princ:first-child{
+    margin: 20px 1px 0px 2%;
+    }
+    .tit_menu p {
+        font-size: 30px;
+        }
+    .tit_menu span {
+        font-size: 30px;
+        padding: 0px 25px;
+        }    
+}
+@media only screen and (max-width: 500px){
+	.menu_princ:hover {
+    width: 90%;
+    } 
+} 
 
+/* responsivo centro */
+@media only screen and (max-width: 1218px){
+	.derecha {
+    width: 80%;
+	}
+	.cuadritos {
+    width: 92%;
+    display: inline-block;
+    vertical-align: top;
+    }
+	.imgcent {
+    height: auto;
+    width: 85%;
+	} 
+	.txtcentro {
+    min-height: 100px;
+	}	
+	.txtcentro h2 {
+    font-size: 30px;
+	} 
+}
+/* responsivo centro */
+@media only screen and (max-width: 802px){
+	.derecha {
+    width: 95%;
+	}
+	.txtcentro {
+	padding: 25px 10px;
+	}	
+	.txtcentro h2 {
+    font-size: 34px;
+	}
+	.txtcentro p {
+    font-size: 26px;
+	}
+	.boton_destaca {
+	font-size: 25px;
+	}
+}
 .listado {
 	background-color: #ffc7c7;
     float: right;
@@ -406,21 +558,80 @@ background-color: rgba(255, 255, 255, 0.26);
     padding: 15px 0px 20px 0px;}
 	
 .fin_listado_not span {
-
     color: transparent;
 }
-.boton2 {
-    border: 0px solid;
-}
 
-.boton2:hover {
-    border: 0px solid;
+/* responsivo listado izquierda */
+@media only screen and (max-width: 1218px){
+	.listado {
+    width: 100%;
+    margin: 30px 0% 20px 0%;
+    vertical-align: top;
+    display: inline-block;
+	}
+	.tit_menu_izq {
+    /* background-color: white; */
+    width: 100%;
+    margin: 0px 0px 10px 0%;
+	}
+	.menu_listado {
+    margin: 15px 0px 20px 3%;
+    /* background-color: rgba(243, 104, 155, 0.15); */
+	min-width: auto;
+    width: 42%;
+    vertical-align: top;
+    display: inline-block;
+	}
+	.menu_listado:nth-child(2n+1) {
+    margin: 15px 0px 20px 4%;
+	}
+	.menu_listado p {
+    font-size: 20px;
+	}
+	.menu_listado h2 {
+	margin-bottom:15px;
+    font-size: 24px;
+	height: 52px; /*mas grande 82*/
+    overflow: hidden;
+	}
+	.menu_listado a span {
+    font-size: 20px;
+	}
+}
+/* responsivo listado izquierda */
+@media only screen and (max-width: 810px){
+ 
+	.menu_listado {
+    margin: 15px 0px 20px 3%;
+    width: 85%;
+	}
+	.menu_listado:nth-child(2n+1) {
+    margin: 15px 0px 20px 3%;
+	}
+	.menu_listado p {
+    font-size: 24px;
+	}
+	.menu_listado h2 {
+	height: 60px;
+    font-size: 28px;
+	}
+	.menu_listado a span {
+    font-size: 24px;
+	}
 }
 .borde_bottom{
     background-color: #969ae2;
 	/* background-color: transparent; */
     background-image: url(images/borde_abaj_final.png);
 }
+/* clases perdidas?? */
+.boton2 {
+    border: 0px solid;
+}
+.boton2:hover {
+    border: 0px solid;
+}
+
 /* footer */
 
 .abajo {
@@ -682,9 +893,8 @@ transition: all 0.7s ease-out;
 /* vitrina */	
 
 .cuadritos_vitrina {
-    background-color: #969ae2;
     /* height: 200px; */
-    width: 98%;
+    width: 100%;
     /* opacity: 0.8; */
     margin: 10px 0px 20px 0px;
     /* padding: 15px 10px; */
@@ -693,11 +903,7 @@ transition: all 0.7s ease-out;
     /* border-bottom: 1px solid #d66666; */
     font-family: 'Raleway', sans-serif;
 }
-
-
 .ordena_vitrina {
-    background-color: cadetblue;
-    /* border-bottom: 1px solid #d66666; */
     display: inline-block;
     vertical-align: top;
     margin-bottom: 10px;
@@ -706,78 +912,72 @@ transition: all 0.7s ease-out;
     width: 98%;
     text-align: left;
 }
-
 .tres_cuad_virina {
-    background-color: #969ae2;
+    /*background-color: #969ae2;*/
     width: 28%;
     vertical-align: top;
     display: inline-block;
+    overflow: hidden;
     margin-right: 5%;
+    border: 1px solid #f5889b;
     padding: 10px 5px;
+    text-align: center;
 }
 .tres_cuad_virina:last-child{
     margin-right: 0%;
 }
 .agotado_vit{
-color: red;
+	color: red;
     font-size: 16px;
     margin: 0px;
     vertical-align: bottom;
     display: inline-block;
     text-align: right;
     width: 95%;
-	    margin: 10px 0px;
+	margin: 10px 0px;
     padding-right: 10px;
 }
-
-
-.lupa2{
-width: 190px;
-    height: 190px;
-        position: relative;
-		cursor: pointer;
- margin: 0px; 
- display: inline-block;
-    vertical-align: top;
-    }
-    .caja_sin_lupa{
-            width: 100%;
-    height: 100%;
-    position: absolute;
-   margin:0px;
-    opacity: 0.8; /* for demo purpose  */
-    background-size: contain;
-   /*  background-position: 50% 50%; */
-    /* background-color: aqua; */
-    background-repeat: no-repeat;  
-	display: inline-block;
-    vertical-align: top;
-    }
-    .cambia_caja{
-        z-index: 9;
-transition: 1s ease-in-out;
-	display: inline-block;
+.lupa2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+    margin: 0px;
+    display: inline-block;
+    margin-left: 7px;
     vertical-align: top;
 }
+.caja_sin_lupa {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: -100px;
+    opacity: 0.8;
+    background-size: contain;
+    /* background-position: 50% 50%; */
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;       
+}
+.cambia_caja{
+	z-index: 9;
+	transition: 1s ease-in-out;
+	display: inline-block;
+	vertical-align: top;
+}
 
-	  .cambia_caja:hover{
-opacity: 0.7;
-
+.cambia_caja:hover {
+    opacity: 0.7;
     background-image: url(images/lupa.png);
     background-position: 50% 50%;
-	    background-size: inherit;
+    background-size: inherit;
     background-repeat: no-repeat;
     z-index: 9;
-    width: 190px;
-    height: 190px;
-    background-color:black;
-
-    }
-
-
-
-
-
+	width: 200px;
+    height: 200px;
+    background-color: black;
+}
 
 .image_virina {
     width: 95%;
@@ -787,9 +987,10 @@ opacity: 0.7;
 background-image: url(images/arrow-158-24.png);
 }
 .detalles_vitrina {
-background-color: #498C5A;  
+    
     width: 95%;
     padding: 5px;
+    margin: 20px 0px 0px 0px;
     text-align: center;
 }
 .detalles_vitrina h3{
@@ -799,13 +1000,14 @@ color: #f12768;
 .detalles_vitrina p{    color: #f12768;
     font-size: 15px;}
 .comprar_prodc{
-background-color: burlywood;
     padding: 5px 15px;
-    border: 1px solid;
+    border: 1px solid #ec8e9e;
     width: 60%;
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
+    transition: all 0.8s;
+    opacity: 0.7;
 }	
 .comprar_prodc p{
 color: #f12768;
@@ -818,9 +1020,17 @@ color: #f12768;
 	width: 20px;
     height: 20px;
     background-image: url(images/shopping-basket-24.png);
-    opacity: 0.8;
+   
     vertical-align: bottom;
     display: inline-block;
     background-size: cover;
     margin-left: 15px;
 }
+.comprar_prodc:hover{
+    color: #F12768;
+    opacity: 1;
+    background-color: #FDD6DD;
+    border: 1px solid #EF848E;
+}
+
+
