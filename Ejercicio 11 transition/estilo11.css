@@ -1,0 +1,61 @@
+.caja{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 20px;
+    background-color: blueviolet;
+    border: 2px solid transparent;
+    transition: all 0.75s;
+    overflow: hidden;
+}
+
+.caja:hover{
+    width: 100px;
+    height: 200px;
+    line-height: 20px;
+    background-color: rgba(137, 43, 226, 0.5);
+    border: 2px solid blueviolet; 
+}
+
+.caja-sombra{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border: 3px solid grey;
+    background-color: white;
+    position: relative;
+}
+.caja-sombra::after{
+    position: absolute;
+    bottom: 0px;
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-image: blue;
+    background-image: -webkit-linear-gradient(to right, #24FE41, blue); 
+    background-image: linear-gradient(to right, rgb(214, 61, 176), blue);
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.img{
+    width: 100%;
+}
+.portada{
+    width: 600px;
+    height: 250px;
+    background-image: url(cake2.jpg);
+    background-size: 140%;
+    animation: movimiento 14s infinite linear ;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: left ;
+    }
+    to{
+        background-position: right ;
+    }
+}
+
