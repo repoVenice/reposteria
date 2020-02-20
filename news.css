@@ -46,21 +46,21 @@
         font-family: 'Raleway', sans-serif;
 }
 
-.txtcentro {
+.txtcentro-n {
     margin: 0px;
     padding: 10px; 
     min-height: 25px;
     height: auto;
 }
  
-.txtcentro h2{
+.txtcentro-n h2{
     font-family: 'Courgette', cursive;
     color: #d66666;
     font-size: 25px;
     margin: 10px 0 30px 0;
 }
 
-.txtcentro p{
+.txtcentro-n p{
     font-size: 16px;
     color: black;
     text-align: justify;
