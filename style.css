@@ -172,7 +172,7 @@ height: 24px;
     width: 16%;
     margin: 132px 0px 0px 1%;
     padding: 0px 0px 0px 12px;
-    float: left;
+       /* float: left; */
     vertical-align: top;
     display: inline-block;
     text-align: center;
@@ -495,32 +495,15 @@ height: 24px;
     font-size: 16px;
     border: double 4px #DA515E;
 }
-.listado .menu_listado {
-    margin: 15px 10px 5px 5%;
+.menu_listado {
+    margin: 15px 0px 25px 5%;
     padding: 0px 15px 0px 15px;
     /* cursor: pointer; */
     float: left;
     /* height: 100px; */
-    border: #E68348 1px solid;
-    background-color: rgba(232, 151, 103, 0.15);
     text-align: left;
-    /* background-color: rgba(243, 104, 155, 0.15); */
-    min-width: 70%;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    transition: background-image 1.2s;
-}
-
-.listado .menu_listado:hover {
-    margin: 15px 10px 5px 5%;
-    padding: 0px 15px 0px 15px;
-    /* cursor: pointer; */
-    float: left;
-    /* height: 100px; */
-    border: #D65D07 1px solid;
-    background-image: linear-gradient( to right ,rgba(214, 93, 7, 0.10), 
-    rgba(226, 89, 9, 0.18));
-    text-align: left;
+    border: transparent 1px solid;
+    border-left: 2px solid #DA5B10;;
     /* background-color: rgba(243, 104, 155, 0.15); */
     min-width: 70%;
     font-family: 'Raleway', sans-serif;
@@ -537,7 +520,7 @@ height: 24px;
     margin: 18px 0px 12px 0px;
     font-size: 18px;
     font-weight: 200;
-	text-transform: initial;
+	text-transform: capitalize;
     color: #DA5B10;
 }
 .menu_listado a{
@@ -583,6 +566,7 @@ height: 24px;
 	.listado {
     width: 100%;
     margin: 30px 0% 20px 0%;
+	padding: 0px 0px 25px 0px;
     vertical-align: top;
     display: inline-block;
 	}
@@ -613,6 +597,9 @@ height: 24px;
 	}
 	.menu_listado a span {
     font-size: 20px;
+	}
+	.fin_listado_not{
+	display: none;
 	}
 }
 /* responsivo listado izquierda */
@@ -953,6 +940,19 @@ transition: all 0.7s ease-out;
     width: 95%;
 	margin: 10px 0px;
     padding-right: 10px;
+	text-transform: capitalize;
+}
+.disponible_vit{
+	color: green;
+    font-size: 16px;
+    margin: 0px;
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: right;
+    width: 95%;
+	margin: 10px 0px;
+    padding-right: 10px;
+	text-transform: capitalize;
 }
 .lupa2 {
     width: 200px;
@@ -1004,7 +1004,7 @@ transition: all 0.7s ease-out;
 background-image: url(images/arrow-158-24.png);
 }
 .detalles_vitrina {
-    
+    text-transform: capitalize;
     width: 95%;
     padding: 5px;
     margin: 20px 0px 0px 0px;
@@ -1012,6 +1012,7 @@ background-image: url(images/arrow-158-24.png);
 }
 .detalles_vitrina h3{
 color: #f12768;
+    letter-spacing: 1px;
     font-size: 20px;
 	margin: 0px;}
 .detalles_vitrina p{    color: #f12768;
