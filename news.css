@@ -93,23 +93,6 @@ ul{
     text-decoration: none;
 }
 
-.boton_destaca{ 
-    background-color: transparent;
-    width: 120px;
-    height: 20px;
-        /* width: 45%; */
-    padding: 15px 15px;
-    border: 1px solid #D62F2F;
-    color: #D62F2F;
-        /* text-decoration: none; */
-        /* float: left; */
-    margin-top: 25px;
-    margin-left: 220px;
-    font-size: 17px;
-    line-height: 100%;
-    font-style: italic;
-}
-
 .img-0-taller {
 	height: 260px;
     width: 500px;

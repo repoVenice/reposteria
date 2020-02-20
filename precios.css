@@ -1,140 +1,100 @@
-.cuerpo-noticias {
-    /* background-color: #ffc7c7; */
-    /* height: 718px; */
-    width: 81%;
-    height: auto;
-	text-align: center;
-    /* opacity: 0.8; */
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    float: left;
-}
-
-.titulo_centro{
-    font-family: 'Courgette', cursive;
-    color: #d66666;
-    font-size: 45px;
-    margin: 0px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-}
-
-.contenedor_noticia{
+.cont_precios{
     display: inline-block;
     vertical-align: top;
     width: 600px;
-    height: auto;
     padding: 15px 0%;
-    /* width: 95%; */
-    /* background-color: black; */
-    /* float: left; */
-    margin-top: 0px;
-}
-
-.texto_noticia{
-    background-color: rgba(255, 255, 255, 0.26);
-        /* height: 200px; */
-        width: 100%;
-        height: auto;
-        /* opacity: 0.8; */
-        float: left;
-        position: relative;
-        top: 6px;
-        left: 0px;
-        text-align: center;
-        border: 1px solid pink;
-        font-family: 'Raleway', sans-serif;
-}
-
-.txtcentro {
-    margin: 0px;
-    padding: 10px; 
-    min-height: 25px;
-    height: auto;
-}
- 
-.txtcentro h2{
-    font-family: 'Courgette', cursive;
-    color: #d66666;
-    font-size: 25px;
-    margin: 10px 0 30px 0;
-}
-
-.txtcentro p{
-    font-size: 16px;
-    color: black;
-    text-align: justify;
-    padding: 0px 30px;
-}
-h4{
-    color: black;
-    text-align: left;
-    font-weight: bolder;
-    font-size: 16px;
-    margin-left: 30px;
-    margin-top: 35px;
-}
-
-.ico-noticias{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-}
-
-ul{
-    font-size: 16px;
-    color: black;
-    text-align: justify;
-    padding: 0px 30px;
-    margin-left: 30px;
-}
-
-.boton1{ 
-    text-decoration: none;
-}
-
-.boton_destaca{ 
-    background-color: transparent;
-    width: 120px;
-    height: 20px;
-        /* width: 45%; */
-    padding: 15px 15px;
-    border: 1px solid #D62F2F;
-    color: #D62F2F;
-        /* text-decoration: none; */
-        /* float: left; */
-    margin-top: 25px;
-    margin-left: 220px;
-    font-size: 17px;
-    line-height: 100%;
+    margin-top: 20px;
+    border: 0px solid red;
     font-style: italic;
+    
+}
+.precios {
+    background-color: transparent;
+    width: 90%;
+    margin: 15px 0px 15px 18px;
+    padding: 15px 10px;
+    float: left;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border: 0px solid yellowgreen;
 }
 
-.img-0-taller {
-	height: 260px;
+.grid{
+    display: grid;
     width: 500px;
-    margin-bottom: 20px;
+    grid-template-columns: 200px repeat(3,1fr);
+    grid-template-rows:  40px repeat(4,30px);
+    text-align: center;
+    margin: 5% auto;
+    row-gap: 10px;
+    column-gap: 1px;
+    border: 0px solid rgb(136, 92, 25);
+    box-sizing: border-box;
+    margin-bottom: 60px;
+ 
 }
 
-.img-1-cata {
-	height: 280px;
+.grid:hover{
+    display: grid;
     width: 500px;
+    opacity: 98%;
+    background-color: rgb(255, 199, 199);
+    grid-template-columns: 200px repeat(3,1fr);
+    grid-template-rows:  40px repeat(4,30px);
+    text-align: center;
+    margin: 5% auto;
+    row-gap: 10px;
+    column-gap: 1px;
+    border: 0px solid rgb(136, 92, 25);
+    margin-bottom: 60px;
+ 
 }
 
-.img-2-comunicado{
-    width: 560px;
-    height: auto;
-    margin: 20px 0px;
+.grid>div{
+    border: 0px solid blue; 
+    color: #D66C2C;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: left;
+    padding-left: 18px;
 }
 
-.img-3-concurso {
-	height: 280px;
-    width: 440px;
-    margin: 20px 0px;
+.grid>div:hover{
+    border: 0px solid blue; 
+    background-color: #969ae2 ;
+    font-size: 16px;
+    line-height: 0px;
+    text-align: left;
+    padding-left: 18px;
+    
 }
 
-.img-4-saure{
-	height: 280px;
-    width: 440px;
-    margin: 20px 0px;
+div>.titulo{
+    border: 0px solid blue;
+    color: #c25c5c;
+    background-color: #ff80b0;
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 0px; 
 }
+
+div>.titulo:hover{
+    border: 0px solid blue;
+    color: #c25c5c;
+    background-color: #ff80b1ac;
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 0px; 
+}
+
+/*
+@media only screen and (max-width:600px){
+    
+}
+
+
+*/
