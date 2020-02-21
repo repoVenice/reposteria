@@ -236,6 +236,7 @@ height: 24px;
 	text-align: left;
     font-family: 'nymphetteregular', Arial, sans-serif;
 }
+
 .tit_menu_izq{
 	text-align: center;
 }
@@ -585,7 +586,14 @@ height: 24px;
 	padding: 0px 0px 25px 0px;
     vertical-align: top;
     display: inline-block;
-	}
+    }
+    .listado:hover {
+        width: 100%;
+        margin: 30px 0% 20px 0%;
+        padding: 0px 0px 25px 0px;
+        vertical-align: top;
+        display: inline-block;
+        }
 	.tit_menu_izq {
     /* background-color: white; */
     width: 100%;
@@ -621,9 +629,9 @@ height: 24px;
 /* responsivo listado izquierda */
 @media only screen and (max-width: 810px){
  
-	.menu_listado {
+	.listado .menu_listado {
     margin: 15px 0px 20px 3%;
-    width: 85%;
+    width: 43%;
 	}
 	.menu_listado:nth-child(2n+1) {
     margin: 15px 0px 20px 3%;
@@ -637,8 +645,47 @@ height: 24px;
 	}
 	.menu_listado a span {
     font-size: 24px;
-	}
+    }
+    
+    .tit_menu_izq {
+        /* background-color: white; */
+        width: 100%;
+        margin: 0px 0px 10px 0%;
+        }
+    .listado .menu_listado:hover {
+        margin: 15px 0px 20px 3%;
+        width: 43%;
+        }
 }
+@media only screen and (max-width: 500px){
+    .listado .menu_listado {
+        margin: 15px 0px 20px 3%;
+        width: 80%;
+        }
+        .menu_listado:nth-child(2n+1) {
+        margin: 15px 0px 20px 3%;
+        }
+        .menu_listado p {
+        font-size: 24px;
+        }
+        .menu_listado h2 {
+        height: 60px;
+        font-size: 28px;
+        }
+        .menu_listado a span {
+        font-size: 24px;
+        }
+
+        .listado .menu_listado:hover {
+            margin: 15px 0px 20px 3%;
+            width: 80%;
+            }
+}
+
+
+
+
+
 .borde_bottom{
     background-color: #969ae2;
 	/* background-color: transparent; */
@@ -984,7 +1031,7 @@ transition: all 0.7s ease-out;
 	width: 100%;
     height: 100%;
     position: absolute;
-    margin-left: -100px;
+    margin-left: -110px;
     opacity: 0.8;
     background-size: contain;
     /* background-position: 50% 50%; */

@@ -1,0 +1,85 @@
+.grid-contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 50px) 200px 50px;
+    grid-template-areas:    "nombres    apellidos"
+                            "email      telefono"
+                            "asunto     asunto"
+                            "mensaje    mensaje"
+                            "enviar     enviar";
+    gap: 15px;
+}
+
+.nombres-contacto{
+    display: flex;
+    width: auto;
+    grid-area: nombres;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+}
+
+.apellidos-contacto{
+    display: flex;
+    width: auto;
+    grid-area: apellidos;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+}
+
+.email-contacto{
+    display: flex;
+    width: auto;
+    grid-area: email;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+}
+
+.telefono-contacto{
+    display: flex;
+    width: auto;
+    grid-area: telefono;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+}
+
+.asunto-contacto{
+    display: flex;
+    width: auto;
+    grid-area: asunto;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+    
+}
+
+.mensaje-contacto{
+    display: flex;
+    width: auto; 
+    grid-area: mensaje;
+    font-size: 16px;
+    width: 100%;
+    color: blue;  
+}
+.enviar-contacto{
+    display: flex;
+    width: 50px;
+    grid-area: enviar;
+    font-size: 16px;
+    width: 100%;
+    color: blue;
+    background-color: cyan;
+    text-align: center;
+}
+input{
+    display: flex;
+    font-style: italic;
+    width: 100%; 
+    color: purple;
+    padding: 1em;
+    vertical-align: top; 
+    background-color:  rgb(245, 245, 245);
+}
