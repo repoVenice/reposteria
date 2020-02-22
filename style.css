@@ -354,8 +354,9 @@ height: 24px;
     font-style: italic;
 }
  
-.boton_destaca{ 
+.boton_destaca{
     /* background-color: transparent; */
+    font-family: 'Raleway';
     width: 45%;
     padding: 15px 15px;
     border: 1px solid #D62F2F;
@@ -363,7 +364,7 @@ height: 24px;
     /* text-decoration: none; */
     /* float: left; */
     margin-top: 1%;
-	opacity: 0.8;
+    opacity: 0.8;
     font-size: 17px;
     /* font-style: italic; */
     display: inline-block;

@@ -61,13 +61,14 @@
 }
 
 .txtcentro-n p {
+  font-family: 'Raleway';
   font-size: 16px;
-  color: black;
+  color: #d66666;
   text-align: justify;
   padding: 0px 30px;
 }
 h4 {
-  color: black;
+  color: #d66666;
   text-align: left;
   font-weight: bolder;
   font-size: 16px;
@@ -83,7 +84,8 @@ h4 {
 
 ul {
   font-size: 16px;
-  color: black;
+  font-family: 'Raleway';
+  color: #d66666;
   text-align: justify;
   padding: 0px 30px;
   margin-left: 30px;
