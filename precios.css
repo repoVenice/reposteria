@@ -36,10 +36,10 @@
 
 .grid:hover{
     display: grid;
-    width: 500px;
+    width: 550px;
     opacity: 98%;
     background-color: rgb(255, 199, 199);
-    grid-template-columns: 200px repeat(3,1fr);
+    grid-template-columns: 250px repeat(3,1fr);
     grid-template-rows:  40px repeat(4,30px);
     text-align: center;
     margin: 5% auto;
